@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="_css/style.css" rel="stylesheet" />
+    <title>FoodBox</title>
+  </head>
+  <body>
+    <header>
+      <h1>FoodBox</h1>
+      <p>Monte seu box e receba em 15 minutos!</p>
+    </header>
+    <main>
+      <div class="dish">
+        <h1 class="primeiro">Primeiro seu prato</h1>
+
+        <section id="section" onclick="escolhaFrango()">
+          <div class="prato">
+            <h3>Frango Yin-Yang</h3>
+            <p>Um pouco de batata, um pouco de salada</p>
+            <p><strong>R$ 19,90</strong></p>
+          </div>
+          <!--prato-->
+
+          <div class="image">
+            <img
+              src="https://www.kitano.com.br/wp-content/uploads/2019/07/SSP_2480-Frango-assado-com-salsa-e-cebolinha-1.jpg"
+              alt=""
+            />
+          </div>
+        </section>
+
+        <section id="section1" onclick="escolhaCarne()">
+          <div class="prato">
+            <h3>Carne e salada</h3>
+            <p>Partida ao meio para aparecer mais carne</p>
+            <p><strong>R$ 24,90</strong></p>
+          </div>
+          <!--prato-->
+
+          <div class="image">
+            <img
+              src="https://d37k6lxrz24y4c.cloudfront.net/v2/pt-br/e9dc924f238fa6cc29465942875fe8f0/55047e37-1322-4568-a78d-052dc2d22fc0-600.jpg"
+              alt=""
+            />
+          </div>
+        </section>
+      </div>
+
+      <div class="bebida">
+        <h1 class="primeiro">Agora sua bebida</h1>
+
+        <section id="section2" onclick="escolhaCoca()">
+          <div class="prato">
+            <h3>Coca-cola gelada</h3>
+            <p>Normal, zero ou stevia. Vai na sorte</p>
+            <p><strong>R$ 5,90</strong></p>
+          </div>
+          <!--prato-->
+
+          <div class="image">
+            <img
+              src="https://w3.i.uol.com.br/novas-midias/2012/01/18/a-coca-cola-lidera-a-lista-das-marcas-mais-valiosas-do-mundo-divulgada-pela-interbrands-o-valor-da-marca-e-avaliado-em-us-719-bilhoes-1326908660707_300x300.jpg.webp"
+              alt=""
+            />
+          </div>
+        </section>
+
+        <section id="section3" onclick="escolhaRefri()">
+          <div class="prato">
+            <h3>Refresco</h3>
+            <p>Podia ser suco, mas leva água.</p>
+            <p><strong>R$ 3,90</strong></p>
+          </div>
+          <!--prato-->
+
+          <div class="image">
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/5717d28a4d088e58f3740f6d/1582756854735-TK62CEUEIO7FU036U6NG/IMG_5799.jpeg"
+              alt=""
+            />
+          </div>
+        </section>
+      </div>
+      <!--bebida-->
+
+      <div class="sobremesa">
+        <h1 class="primeiro">Por fim, sua sobremesa</h1>
+
+        <section id="section4" onclick="escolhaPudim()">
+          <div class="prato">
+            <h3>Pudim</h3>
+            <p>Apenas um lindo e brilhante pudim!</p>
+            <p><strong>R$ 7,90</strong></p>
+          </div>
+          <!--prato-->
+
+          <div class="image">
+            <img
+              src="http://www.irismassas.com.br/wp-content/uploads/2015/06/pudim-de-leite.jpg"
+              alt=""
+            />
+          </div>
+        </section>
+
+        <section id="section5" onclick="escolhaSorvete()">
+          <div class="prato">
+            <h3>Soverte bem gelado</h3>
+            <p>Várias bolinhas como na foto.</p>
+            <p><strong>R$ 6,90</strong></p>
+          </div>
+          <!--prato-->
+
+          <div class="image">
+            <img
+              src="http://difusora890.com.br/wp-content/uploads/2016/08/omiljena-proljetna-slastica-sladoled-3022-469x313-20140513114214.jpg"
+              alt=""
+            />
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="button" onclick="pedido()">
+      <button><strong>Finalizar pedido</strong></button>
+    </div>
+
+    <script src="_js/script.js"></script>
+  </body>
+</html>
